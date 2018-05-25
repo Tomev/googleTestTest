@@ -8,4 +8,4 @@ add_executable(googleTestTest ${SOURCES})
 
 include_directories(googleTestTest)
 add_subdirectory(src)
-
+add_subdirectory(test)

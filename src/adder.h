@@ -5,6 +5,8 @@ class adder
 {
 public:
   static double add(double x, double y);
+  static int add(int x, int y);
+
 private:
 };
 

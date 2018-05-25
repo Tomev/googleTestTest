@@ -1,7 +1,5 @@
 #include "adder.h"
 
-
-
 double adder::add(double x, double y)
 {
   /** Add method with doubles as attributes. Returns sum of two doubles.
@@ -12,4 +10,9 @@ double adder::add(double x, double y)
    */
 
   return x + y;
+}
+
+int adder::add(int x, int y)
+{
+
 }
