@@ -1,0 +1,2 @@
+project(googleTestTest_sources)
+
