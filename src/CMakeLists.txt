@@ -1,5 +1,2 @@
-cmake_minimum_required(VERSION 3.11)
-project(googleTestTest_sources)
-
-set(SOURCES adder.cpp adder.h)
+add_library(ADDER_LIB adder.cpp adder.h)
 
