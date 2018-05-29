@@ -14,5 +14,12 @@ double adder::add(double x, double y)
 
 int adder::add(int x, int y)
 {
+  /** Add method with ints as attributes. Returns sum of two ints.
+   *
+   *  @brief Returns sum of two int addends.
+   *
+   *  @return x + y
+   */
 
+  return x + y;
 }

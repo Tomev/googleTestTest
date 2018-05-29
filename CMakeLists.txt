@@ -4,10 +4,11 @@ project(googleTestTest)
 set(CMAKE_CXX_STANDARD 11)
 set(SOURCES main.cpp)
 
-add_executable(googleTestTest ${SOURCES})
+add_executable(googleTestTest_run ${SOURCES})
 
-include_directories(googleTestTest)
+include_directories(src)
+
 add_subdirectory(src)
 add_subdirectory(test)
 
-target_link_libraries(googleTestTest ADDER_LIB)
+target_link_libraries(googleTestTest_run ADDER_LIB)
